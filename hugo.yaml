@@ -1,0 +1,4 @@
+baseURL: https://hyuk.dev/
+languageCode: ko-KR
+title: Hyuk Tech Blog
+theme: ["PaperMod"]
