@@ -15,7 +15,7 @@ params:
     subtitle:
       '견고한 시스템 아키텍처 구축에 기여하는 개발자를 지향하고, <br>
       시스템 안정성을 위한 문제 해결 과정에 적극적으로 참여합니다.'
-    imageUrl: "http://localhost:1313/imgs/profile_image.jpg"
+    imageUrl: "imgs/profile_image.jpg"
     imageWidth: 480
     imageheight: 480
   defaultTheme: auto # "auto", "light", "dark" 중 선택
