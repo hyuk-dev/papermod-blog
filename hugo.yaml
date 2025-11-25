@@ -1,4 +1,47 @@
 baseURL: https://hyuk.dev/
 languageCode: ko-KR
 title: Hyuk Tech Blog
-theme: ["PaperMod"]
+theme:
+  - PaperMod
+
+params:
+  author: 이동혁
+  description: 이동혁의 기술 블로그입니다.
+  defaultTheme: auto # "auto", "light", "dark" 중 선택
+  ShowReadingTime: true # 글 읽는 시간 표시
+  ShowShareButtons: true # 공유 버튼 표시
+  ShowPostNavLinks: true # 이전/다음 글 링크 표시
+
+  # 메인 페이지 설정
+  homeInfoParams:
+    Title: 안녕하세요! 👋
+    Content: 저는 백엔드 개발자를 준비하고있는 이동혁이라고 합니다.
+
+  # 소셜 아이콘 설정 (예시)
+  socialIcons:
+    - name: github
+      url: https://github.com/hyuk-dev
+    - name: linkedin
+      url: https://www.linkedin.com/in/동혁-이-2aa9962b8/
+
+# 메인 메뉴 설정
+menu:
+  main:
+    - identifier: archives
+      name: 글 목록
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 20
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
