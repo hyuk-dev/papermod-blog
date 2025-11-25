@@ -1,0 +1,7 @@
+{
+  "name": "your-worker-name", // 프로젝트 이름 (원하는 이름으로 변경)
+  "compatibility_date": "2025-11-25",
+  "assets": {
+    "directory": "./public" // Hugo 빌드 결과 디렉토리
+  }
+}
