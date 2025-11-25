@@ -7,6 +7,15 @@ theme:
 params:
   author: 이동혁
   description: 이동혁의 기술 블로그입니다.
+  profileMode:
+    enabled: true
+    title: '개발자 이동혁'
+    subtitle:
+      '견고한 시스템 아키텍처 구축에 기여하는 개발자를 지향하고, <br>
+      시스템 안정성을 위한 문제 해결 과정에 적극적으로 참여합니다.'
+    imageUrl: "http://localhost:1313/imgs/profile_image.jpg"
+    imageWidth: 480
+    imageheight: 480
   defaultTheme: auto # "auto", "light", "dark" 중 선택
   ShowReadingTime: true # 글 읽는 시간 표시
   ShowShareButtons: true # 공유 버튼 표시
@@ -15,7 +24,11 @@ params:
   # 메인 페이지 설정
   homeInfoParams:
     Title: 안녕하세요! 👋
-    Content: 저는 백엔드 개발자를 준비하고있는 이동혁이라고 합니다.
+    Content: |
+      저는 백엔드 개발자를 준비하고있는 이동혁이라고 합니다. <br>
+      견고한 시스템 아키텍처 구축에 기여하는 개발자를 지향하고,
+      팀워크를 통한 시너지 창출을 중요시 여깁니다. <br>
+      또한, 시스템 안정성을 위한 문제 해결 과정에 적극적으로 참여합니다.
 
   # 소셜 아이콘 설정 (예시)
   socialIcons:
@@ -45,3 +58,8 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
