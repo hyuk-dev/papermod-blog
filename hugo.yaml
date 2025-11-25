@@ -7,6 +7,8 @@ theme:
 params:
   author: 이동혁
   description: 이동혁의 기술 블로그입니다.
+  assets:
+    favicon: "assets/favicon.ico"
   profileMode:
     enabled: true
     title: '개발자 이동혁'
